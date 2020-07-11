@@ -4,7 +4,9 @@ double addNumbers(double num1, double num2) {
 }
 
 void main() {
-  print(addNumbers(1, 2.6));
-  print(addNumbers(1, 1));
+  var firstResult = addNumbers(1, 2.6);
+  firstResult = addNumbers(1, 1);
+  // ...
+  print(firstResult + 1);
   print('Hello!');
 }
