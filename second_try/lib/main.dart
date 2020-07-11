@@ -4,7 +4,7 @@ double addNumbers(double num1, double num2) {
 }
 
 void main() {
-  var firstResult = addNumbers(1, 2.6);
+  double firstResult;
   firstResult = addNumbers(1, 1);
   // ...
   print(firstResult + 1);
