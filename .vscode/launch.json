@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "lib/main.dart",
+            "program": "third_flutter_complete_guide/app_002_my_first_app/lib/main.dart",
             "request": "launch",
             "type": "dart"
         }
