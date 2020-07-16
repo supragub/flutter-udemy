@@ -3,6 +3,10 @@ class Person {
   int age;
 
   Person({this.name, this.age = 30});
+
+  Person.veryOld(this.name) {
+    age = 60;
+  }
 }
 
 double addNumbers(double num1, double num2) {
@@ -13,7 +17,9 @@ double addNumbers(double num1, double num2) {
 void main() {
   var p1 = Person(name: 'Max');
   var p2 = Person(age: 31, name: 'Manu');
-  p2.name = 'Manu';
+  var p3 = Person.veryOld('Max');
+  print(p3.name);
+  print(p3.age);
   print(p1.name);
   print(p2.name);
   double firstResult;
